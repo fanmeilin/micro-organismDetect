@@ -1,0 +1,5 @@
+# micro-organismDetect
+> 已经将yolov5训练好的模型保存至weights文件夹下，使用detectInfo脚本可以获取标注的检测信息，flv2jpg是用于将视频文件转化为图像保存下来。detectVideo脚本相当于是集成前面的功能，
+> 用于将输入的视频文件，通过检测之后将得到的annotation下的图片合成视频保存下来。
+
+只需运行detectVideo中的函数即可，后续可以查看yolov5中detect的源代码，貌似可以直接检测视频文件。
